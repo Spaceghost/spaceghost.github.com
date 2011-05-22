@@ -1,2 +1,2 @@
-permalink: pretty
+permalink: /:categories/:year/:month/:day/:title.html
 
