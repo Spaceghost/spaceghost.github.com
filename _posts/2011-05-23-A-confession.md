@@ -3,6 +3,7 @@ layout: post
 title: A confession
 subtitle: Don't hate me.
 category: Projects
+comments: true
 ---
 
 {{ page.title }} - {{ page.subtitle }}

@@ -3,6 +3,7 @@ layout: post
 title: Monoceros beginning
 subtitle: A BDD love story
 category: Projects
+comments: true
 ---
 
 {{ page.title }} - {{ page.subtitle }}
