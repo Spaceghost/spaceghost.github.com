@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Monoceros beginning - A BDD love story
+title: Monoceros beginning
+subtitle: A BDD love story
 category: Projects
 ---
 
-{{ page.title }}
+{{ page.title }} - {{ page.subtitle }}
 ================
 <p class="meta">22 May 2011 - Eugene, Oregon</p>
 
