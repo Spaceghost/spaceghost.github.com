@@ -21,7 +21,7 @@ I'm going to continue with this, creating branches for each part of Monoceros, s
 
 #2. Idea number the next one: Encouraging BDD & CT practices
 
-My good friend [workmad3][] pointed out that my [Gemfile][] is silly, among other things. His reasoning is that I shouldn't include [Watchr][] and [ZenTest][] inside my Gemfile. Those really do belong in a gemset, but it should be the choice of the developer if they do or do not want to use them. While this all made perfect sense, I was clever enough to state that I was including them to help build a community environment that embraced BDD and CT in their development (Read: Play) of Monoceros.
+My good friend [workmad3][] pointed out that my [Gemfile][] is silly, among other things. His reasoning is that I shouldn't include [Watchr][] and [ZenTest][] inside my Gemfile. Those really do belong in a gemset, but it should be the choice of the developer if they do or do not want to use them. While this all made perfect sense, I was clever enough to state that I was including them to help build a community environment that embraced BDD and CT in their development (Read: Play) with Monoceros.
 
 Assuming the idea isn't hated by too many, I'll get the Gemfile in order and allow people to use --without when they bundle if they don't want it. It's like [Rubygems][] not using a sensible default. **cough**[notgeneratingdocumentationbydefault][]**cough** I also may be coming down with a cold.
 
@@ -34,10 +34,22 @@ So, that's that. I'm using cucumber and rspec right now. A great book to learn B
 
 I'm also going to be using [aruba][] to test the monoceros executable for the generators and any other CLI goodness.
 
-#3 Concept the III:
+#3 Concept the III: Those rake tasks
 
-    Pending
+[Earlier][], when I talked about Rake tasks, I mentioned three types of tasks. These are the generation commands for the engine itself. The `rake monoceros:install:full` task will fully install Monoceros into your application. Now it is easy to modify and customise.
 
+The `rake monoceros:install:partial` task is probably going to generate controllers and views for monoceros. Just in case all they want to change is the views and how they want to present data in the controller and the such. I'm thinking of having the files generate to their respective directories, and putting any images or assets that Monoceros uses in the proper directory.
+
+`rake monoceros:install:minimal` will only generate the bare minimum of config files and whatever else it needs into your application. I'm expecting to include the usual opts for forcing it, not over-writing, etc.
+
+#4 Manifestation number four: Building usable and cogent DSL's for Monoceros
+
+There will be two [DSL][]'s in Monoceros. The first is the Roles DSL. The goal with this DSL is to be as expressive as possible, but easy to use with the web panel. Since I'm going to be using it for storing Roles and the such, I need to make the web panel work with it, loading and saving to the config in that DSL. This I might need a bit of help on.
+
+The second DSL is the for the view. I'd love to work with developers who know what they'd like to see in this DSL. My goal is to build a DSL that's fun to use and easy to manage. I already got some feedback from a few good friends working on the [Rubunity][] web application and community. Here's what one of the guys there suggested for passing blocks with roles (In Haml). <script src="https://gist.github.com/958822.js?file=show.html.haml"> </script>
+
+
+Won't you be my neighbor? Comment, discuss and let me know what your thoughts are, or questions. If the question is one I think would deserve a blogpost, I'll write one on your question.
 
 [Sarah Mei]: http://twitter.com/SarahMei "@SarahMei"
 [Monoceros]: https://github.com/Spaceghost/Monoceros "Monoceros@Github"
@@ -52,4 +64,7 @@ I'm also going to be using [aruba][] to test the monoceros executable for the ge
 [Rspec book]: http://pragprog.com/titles/achbd/the-rspec-book "The RSpec Book @ Pragprog"
 [David Chelimsky]: https://github.com/dchelimsky "dchelimsky@Github"
 [aruba]: https://github.com/cucumber/aruba "Aruba@Github"
+[Earlier]: /Monoceros/2011/05/22/Monoceros-beginning.html#rake "Monoceros beginning - Rake tasks"
+[Rubunity]: http://rubunity.com/ "Rubunity"
+[DSL]: http://en.wikipedia.org/wiki/Domain-specific_language "DSL@Wikipedia
 
