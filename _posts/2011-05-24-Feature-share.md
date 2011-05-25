@@ -36,11 +36,11 @@ I'm also going to be using [aruba][] to test the monoceros executable for the ge
 
 #3 Concept the III: Those rake tasks
 
-[Earlier][], when I talked about Rake tasks, I mentioned three types of tasks. These are the generation commands for the engine itself. The `rake monoceros:install:full` task will fully install Monoceros into your application. Now it is easy to modify and customise.
+[Earlier][], when I talked about Rake tasks, I mentioned three types of tasks. These are the generation commands for the engine itself. The `rails g monoceros:install:full` task will fully install Monoceros into your application. Now it is easy to modify and customise.
 
-The `rake monoceros:install:partial` task is probably going to generate controllers and views for monoceros. Just in case all they want to change is the views and how they want to present data in the controller and the such. I'm thinking of having the files generate to their respective directories, and putting any images or assets that Monoceros uses in the proper directory.
+The `rails g monoceros:install:partial` task is probably going to generate controllers and views for monoceros. Just in case all they want to change is the views and how they want to present data in the controller and the such. I'm thinking of having the files generate to their respective directories, and putting any images or assets that Monoceros uses in the proper directory.
 
-`rake monoceros:install:minimal` will only generate the bare minimum of config files and whatever else it needs into your application. I'm expecting to include the usual opts for forcing it, not over-writing, etc.
+`rails g monoceros:install:minimal` will only generate the bare minimum of config files and whatever else it needs into your application. I'm expecting to include the usual opts for forcing it, not over-writing, etc.
 
 #4 Manifestation number four: Building usable and cogent DSL's for Monoceros
 
