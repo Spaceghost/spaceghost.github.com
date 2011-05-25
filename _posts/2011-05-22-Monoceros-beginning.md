@@ -21,17 +21,17 @@ Again I say, here is where I start my journey. Working with edge [Rails][], fres
 1. Engine
 
     Monoceros is first and foremost a Rails 3.1 engine. That is to say, a mountable application for your rails 3.1 applications.
-    My philosophy about engines is that they should be easy to use and easy to customize. When I arrive at the point where Monoceros  works reasonably as intended, I will be including rake tasks for different types of installations of the engine should you want to modify anything.
+    My philosophy about engines is that they should be easy to use and easy to customize. When I arrive at the point where Monoceros  works reasonably as intended, I will be including rails generators for different types of installations of the engine should you want to modify anything.
 
-    * Full<a name="rake"> </a> install - Completely installing the engine inside your application. This is meant for those who want to drastically modify Monoceros in their application.
+    * Full<a name="rails"> </a> install - Completely installing the engine inside your application. This is meant for those who want to drastically modify Monoceros in their application.
 
     * Partial install - I'm thinking, probably views, maybe some controllers, this will have to be explored more. I'll make a note to let you know what I come up with.
 
-    * Install - Should there be anything that simply *must* be generated for you, this will likely be the task it will go in.
+    * Minimal install - Should there be anything that simply *must* be generated for you, this will likely be the generator it will go in.
 
 2. Authentication
 
-    I'm going to include authentication into the engine. Why? Because I can, it takes so little time to actually code, and if I'm clever enough, I'm going to make it work with your whole application if you let me. I'm thinking it'll be held in a config file, you can specify the options for with the 'install' rake task. The goal is to have this be a fallback, and have Monoceros (That clever bastard™) check for [Devise][] and maybe other authentication gems and use those as a priority. Sounds nifty, right?
+    I'm going to include authentication into the engine. Why? Because I can, it takes so little time to actually code, and if I'm clever enough, I'm going to make it work with your whole application if you let me. I'm thinking it'll be held in a config file, you can specify the options for with `rails g monoceros:install:minimal`. The goal is to have this be a fallback, and have Monoceros (That clever bastard™) check for [Devise][] and maybe other authentication gems and use those as a priority. Sounds nifty, right?
 
 3. Authorization
 

@@ -34,7 +34,7 @@ So, that's that. I'm using cucumber and rspec right now. A great book to learn B
 
 I'm also going to be using [aruba][] to test the monoceros executable for the generators and any other CLI goodness.
 
-#3 Concept the III: Those rake tasks
+#3 Concept the III: Those rails generate tasks
 
 [Earlier][], when I talked about Rake tasks, I mentioned three types of tasks. These are the generation commands for the engine itself. The `rails g monoceros:install:full` task will fully install Monoceros into your application. Now it is easy to modify and customise.
 
