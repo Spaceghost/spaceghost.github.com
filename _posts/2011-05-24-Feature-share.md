@@ -6,8 +6,6 @@ category: Monoceros
 comments: true
 ---
 
-{{ page.title }} - {{ page.subtitle }}
-================
 <p class="meta">24 May 2011 - Eugene, Oregon</p>
 > "We would rather have you contribute and mess something up than not contribute. So please go ahead and mess around." &dash; [Sarah Mei][]
 ---

@@ -6,8 +6,6 @@ category: Monoceros
 comments: true
 ---
 
-{{ page.title }} - {{ page.subtitle }}
-================
 <p class="meta">22 May 2011 - Eugene, Oregon</p>
 
 It's 6 am.
