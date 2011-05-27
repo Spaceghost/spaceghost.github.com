@@ -38,7 +38,7 @@ color: white;
 .string:before { color: #ffffff; content: "\""; }
 .string:after { color: #ffffff; content: "\""; }
 
-.comment { color: #B76B39; font-weight: bold;}
+.comment { color: #B76B39; font-weight: bold; }
 .comment:before { content: "# "; }
 
 ol.array { color: #ffffff; font-weight: normal; display: block; }
