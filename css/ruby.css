@@ -24,16 +24,14 @@ color: white;
 
 .inner { padding-left: 1em; }
 
-.comment { color: #B76B39; font-weight: bolder; }
-.comment:before {
-content: "# ";
-}
-.array { }
+.comment { color: #B76B39;}
+.comment:before { content: "# "; }
+
 .array li { color: #ffffff; display: block; }
-.array li:first-child a:before { content: "[\""; display:inline; }
-.array li:last-child a:after  { content: "\"]"; }
-.array li a:before { content: "\""; }
-.array li a:after  { content: "\", "; }
+.array li:first-child a:before { color: #ffffff; content: "[ \""; display:inline; }
+.array li:last-child a:after  { color: #ffffff; content: "\" ]"; }
+.array li a:before { color: #ffffff; content: "\""; }
+.array li a:after  { color: #ffffff; content: "\", "; }
 
 .constant { color: #ffffff; }
 .constant:visited { color: #ffffff; }
