@@ -32,8 +32,6 @@ color: white;
 .heredoc:before { content: " <<EOF"; }
 .heredoc:after { content: " EOF"; }
 
-.code { font: monospace; color: #ffffff; font-weight: normal; }
-
 .string { font: monospace; color: #7DB85B; font-weight: normal; }
 .string:before { color: #ffffff; content: "\""; }
 .string:after { color: #ffffff; content: "\""; }
