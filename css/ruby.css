@@ -1,0 +1,47 @@
+/*****************************************************************************/
+/*
+/* Railscasts attempt
+/*
+/*****************************************************************************/
+
+body {
+background-color: #2D2D2D;
+color: white;
+}
+
+.module span:first-child { color: #B76B39; }
+.module span:last-child { color: #B76B39; font-weight: lighter; }
+.module:first-line { font-weight: lighter; }
+
+.class > * { margin-left: 1em; }
+
+.def { }
+
+.comment { color: #B76B39; font-weight: bolder; }
+.comment:before {
+content: "# ";
+}
+ol.array { display:inline; }
+ol.array:before { content: "["; }
+ol.array:after  { content: "]"; }
+
+ol.array li { color: #7FB85B; display: inline; }
+ol.array li:before { content: "\""; }
+ol.array li:after  { content: "\", "; }
+
+
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: #7FB85B;
+}
+
+a:hover {
+color: orange;
+}
+code { }
+
