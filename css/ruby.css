@@ -10,12 +10,16 @@ color: white;
 }
 
 .module span:first-child { color: #B76B39; }
-.module span:last-child { color: #B76B39; font-weight: lighter; }
-.module:first-line { font-weight: lighter; }
+.module span:last-child { color: #B76B39; font-weight: bold; }
+.module:first-line { font-weight: bold; }
+.module .inner { padding-left: 1em; }
 
-.class > * { margin-left: 1em; }
-
-.def { }
+.klass span:first-child { color: #B76B39; }
+.klass span:last-child { color: #B76B39; font-weight: bold; }
+.klass:first-line { font-weight: bold; }
+.klass {padding-left: 1em; }
+.klass .inner { padding-left: 1em; }
+.code { font: monospace; }
 
 .comment { color: #B76B39; font-weight: bolder; }
 .comment:before {
