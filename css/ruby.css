@@ -18,22 +18,25 @@ color: white;
 .module:before { content: "module " }
 .module:after { content: "end" }
 
+.klass { color: #B76B39; font-weight: bold; }
 .klass:first-child { color: #B76B39; }
 .klass:last-child { color: #B76B39; font-weight: bold; }
 .klass:first-line { font-weight: bold; }
 .klass .inner { padding-left: 1em; }
 .klass:before { content: "class " }
-.klass:after { content: "end" }
+.klass:after { content: " end"; }
 
 .constant { color: #ffffff; }
+
+.heredoc { color: #B76B39; font-weight: bold; }
+.heredoc:before { content: " <<EOF"; }
+.heredoc:after { content: " EOF"; }
 
 .code { font: monospace; color: #ffffff; font-weight: normal; }
 
 .string { font: monospace; color: #7DB85B; font-weight: normal; }
 .string:before { color: #ffffff; content: "\""; }
 .string:after { color: #ffffff; content: "\""; }
-
-.inner { padding-left: 1em; font-weight: normal; }
 
 .comment { color: #B76B39; font-weight: bold;}
 .comment:before { content: "# "; }
@@ -60,8 +63,10 @@ ul.hash li span.value:before { content: " => "; }
 
 
 /* Support code */
-.inline { display: inline; }
 a { text-decoration: none; color: #7DB85B; }
 a:visited { color: #7FB85B; }
 a:hover { color: orange; }
+
+.inline { display: inline; }
+.inner { padding-left: 1em; font-weight: normal; color: #ffffff; }
 

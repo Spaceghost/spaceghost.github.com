@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
+<div class="klass"><span class="constant">Post</span> &lt; <a href="/#{{page.category}}">{{page.category}}::Blog</a><br />
+  <div class="inner">
+    <span class="code">attr_accessor :content</span><br />
 
-<div id="post">
-<h1><a href="/#{{page.category}}">{{page.category}}</a> &raquo; {{ page.title }} - {{ page.subtitle }}</h1>
-{{ content }}
+    <span class="code constant">content</span>
+    <span class="heredoc">
+      <div class="inner">{{ content }}</div>
+    </span>
+  </div>
 </div>
 Number of words in this post: {{ page.content | number_of_words }}
 <div id="related">
