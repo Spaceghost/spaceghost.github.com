@@ -19,21 +19,25 @@ color: white;
 .klass:first-line { font-weight: bold; }
 .klass {padding-left: 1em; }
 .klass .inner { padding-left: 1em; }
+
 .code { font: monospace; }
+
+.inner { padding-left: 1em; }
 
 .comment { color: #B76B39; font-weight: bolder; }
 .comment:before {
 content: "# ";
 }
-ol.array { display:inline; }
-ol.array:before { content: "["; }
-ol.array:after  { content: "]"; }
+.array { }
+.array li { color: #ffffff; display: block; }
+.array li:first-child a:before { content: "[\""; display:inline; }
+.array li:last-child a:after  { content: "\"]"; }
+.array li a:before { content: "\""; }
+.array li a:after  { content: "\", "; }
 
-ol.array li { color: #7FB85B; display: inline; }
-ol.array li:before { content: "\""; }
-ol.array li:after  { content: "\", "; }
-
-
+.constant { color: #ffffff; }
+.constant:visited { color: #ffffff; }
+.constant:hover { color: orange; }
 
 a {
   text-decoration: none;
