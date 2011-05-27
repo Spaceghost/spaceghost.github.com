@@ -33,7 +33,7 @@ ol.array li:after  { content: "\", "; }
 
 a {
   text-decoration: none;
-  color: white;
+  color: #7DB85B;
 }
 
 a:visited {
