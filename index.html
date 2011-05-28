@@ -13,10 +13,12 @@ encoding: utf-8
 <div class="module"><span class="constant" id="Post">Post</span>
   <div class="klass"><span class="constant" id="Monoceros">Monoceros</span>
     <div class="inner">
-      <code>Post.monoceros.each_with_index {|v,k| puts "#{k}. #{v}"; }</code>
+      <code>Post.monoceros.each_with_index <span class="block"><span>v,k</span><br />
+       <tab />puts "#{k}. #{v} (#{v.create_at.strftime %x})";<br />
+       </span></code>
 
       <ol class="inner indexed">
-        <li><a href= "/Monoceros/2011/05/22/Monoceros-beginning.html" title="Monoceros::Blogpost">Monoceros beginning - A BDD love story</a></li>
+        <li><a href= "/Monoceros/2011/05/22/Monoceros-beginning.html" title="Monoceros::Blogpost">Monoceros beginning - A BDD love story</a> (2011-05-22)</span></li>
         <li><a href="/Monoceros/2011/05/23/A-confession.html" title="Monoceros::Blogpost">A confession - I blame myself.</a></li>
         <li><a href="/Monoceros/2011/05/24/Feature-share.html" title="Monoceros::Blogpost">Feature share - Where you learn that there are way too many ideas in my head.</a></li>
         <li><a href="/Monoceros/2011/05/28/Baby-steps.html" title="Monoceros::Blogpost">Baby steps - Else I might trip and hurt myself.</a></li>
@@ -25,7 +27,9 @@ encoding: utf-8
   </div>
   <div class="klass"><span class="constant" id="Thoughts">Thoughts</span>
     <div class="inner">
-      <code>Post.thoughts.each_with_index {|v,k| puts "#{k}. #{v}"; }</code>
+      <code>Post.thoughts.each_with_index <span class="block"><span>v,k</span><br />
+      <tab />puts "#{k}. #{v}"; }</br />
+      </span></code>
       <ol class="inner indexed">
         <li><a href="/Thoughts/2011/05/25/Ferris-Bueller.html" title="Warning: Experimental post. Opinions warranted.">Ferris Bueller - You have seen it, right?</a></li>
         <li><a href="/Thoughts/2011/05/27/Coding-dangerously.html" title="Musings of a ghost">Coding dangerously - Or why I would rather not use debuggers.</a></li>

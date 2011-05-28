@@ -26,6 +26,13 @@ color: white;
 .klass:before { content: "class " }
 .klass:after { content: " end"; }
 
+.block:before { color: #B76B39; content: "do "; font-weight: bold; }
+.block { color: #ffffff; font-weight: bold; }
+.block:after { color: #B76B39; content: "end"; font-weight: bold; }
+.block span:before { color: #608AEF; content: "|"; }
+.block span { }
+.block span:after { color: #608AEF; content: "|";}
+
 .heredoc { color: #B76B39; font-weight: bold; display: inline; }
 .heredoc:before { content: " <<EOF"; }
 .heredoc:after { content: " EOF"; }
@@ -59,7 +66,7 @@ ul.hash li span.value:after { content: ","; }
 .require *:before { content: "'"; }
 .require *:after { content: "'"; }
 
-code { font: 1.2em monospace; }
+code { font: 1.1em monospace; }
 tab { margin-left: 1em; }
 .constant { color: #ffffff; }
 .comment { color: #B76B39; font-weight: bold; }

@@ -6,7 +6,7 @@
  * <tab /><span>As a</span> developer<br />
  * <tab /><span>I want</span> my name plastered everywhere.</div><br />
  */
-tab { margin-left: 1em; color: #C5D88A; }
+tab { margin-left: 1em; }
 .feature:before { color: #B76B39;; content: "Feature: "; }
 .feature span { color: #B76B39; }
 .feature { color: #C5D88A; font: 1.2em monospace; padding: 1em; }
