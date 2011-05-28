@@ -1,0 +1,5 @@
+tab { margin-left: 1em; color: #C5D88A; }
+.feature:before { color: #6173F9; content: "Feature: "; }
+.feature span { color: #6173F9; }
+.feature { color: #C5D88A; }
+
