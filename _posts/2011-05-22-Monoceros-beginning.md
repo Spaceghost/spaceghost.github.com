@@ -20,7 +20,7 @@ Again I say, here is where I start my journey. Working with edge [Rails][], fres
     Monoceros is first and foremost a Rails 3.1 engine. That is to say, a mountable application for your rails 3.1 applications.
     My philosophy about engines is that they should be easy to use and easy to customize. When I arrive at the point where Monoceros  works reasonably as intended, I will be including rails generators for different types of installations of the engine should you want to modify anything.
 
-    * Full<a name="rails"> </a> install - Completely installing the engine inside your application. This is meant for those who want to drastically modify Monoceros in their application.
+    * <span id="rake">Full</span> install - Completely installing the engine inside your application. This is meant for those who want to drastically modify Monoceros in their application.
 
     * Partial install - I'm thinking, probably views, maybe some controllers, this will have to be explored more. I'll make a note to let you know what I come up with.
 
