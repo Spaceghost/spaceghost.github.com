@@ -1,10 +1,10 @@
 ---
 layout: post
 title: Baby steps
-subtitle: Else I might trip and hurt myself
+subtitle: Else I might trip and hurt myself.
 category: Monoceros
 comments: true
-meta: 28 May 2011 - Euegene, Oregon
+meta: 28 May 2011 - Eugene, Oregon
 ---
 
 So, you may have noticed that I've been off in my own little world with [Monoceros][].
