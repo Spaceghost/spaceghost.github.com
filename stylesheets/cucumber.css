@@ -1,5 +1,13 @@
+/* Copyright Johnneylee Jack Rollins 2010
+ * MIT Licensed
+ * Here's how you use cucumber css syntax highlighting:
+ * <div class="feature">Introduce self<br />
+ * <tab /><span>In order</span> for my peers to know who I am<br />
+ * <tab /><span>As a</span> developer<br />
+ * <tab /><span>I want</span> my name plastered everywhere.</div><br />
+ */
 tab { margin-left: 1em; color: #C5D88A; }
 .feature:before { color: #6173F9; content: "Feature: "; }
 .feature span { color: #6173F9; }
-.feature { color: #C5D88A; font: 1.2em monospace; }
+.feature { background-color: white; color: #C5D88A; font: 1.2em monospace; padding: 1em; font-weight: bolder }
 
