@@ -28,7 +28,7 @@ color: white;
 
 .constant { color: #ffffff; }
 
-.heredoc { color: #B76B39; font-weight: bold; }
+.heredoc { color: #B76B39; font-weight: bold; display: inline; }
 .heredoc:before { content: " <<EOF"; }
 .heredoc:after { content: " EOF"; }
 
