@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Feature share
-subtitle: Where you learn that there are way too many ideas in my head
+subtitle: Where you learn that there are way too many ideas in my head.
 category: Monoceros
 comments: true
 ---

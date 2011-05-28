@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A confession
-subtitle: I blame myself
+subtitle: I blame myself.
 category: Monoceros
 comments: true
 ---
