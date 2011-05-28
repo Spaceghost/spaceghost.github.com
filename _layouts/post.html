@@ -3,7 +3,8 @@ layout: default
 ---
 <div class="klass"><code class="constant">Post</code> &lt; <code><a href="/#{{page.category}}">{{page.category}}::Blog</a></code><br />
   <div class="inner">
-    <code>attr_accessor :title, :subtitle, :meta, :content, :comments</code><br />
+    {% if page.comments %}<code>attr_accessor :comments</code><br />{% endif %}
+    <code>attr_reader :title, :subtitle, :meta, :content</code><br />
     <code>title&nbsp;&nbsp;&nbsp; = <span class="string">{{ page.title }}</span></code><br />
     <code>subtitle = <span class="string">{{ page.subtitle }}</span></code><br />
     <code>meta &nbsp;&nbsp;&nbsp;&nbsp;= <span class="string">{{ page.meta }}</span></code><br />

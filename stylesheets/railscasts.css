@@ -74,7 +74,7 @@ a:hover { color: orange; }
 
 .inner { padding-left: 1em; font-weight: normal; color: #ffffff; }
 .indexed { counter-reset: item -1; list-style: none; }
-.indexed li { width: 9001px; }
+.indexed li { }
 .indexed li:before {
 	content:  "# >> " counter(item) ". ";
 	counter-increment: item;
