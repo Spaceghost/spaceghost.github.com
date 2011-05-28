@@ -32,7 +32,7 @@ This is where we part ways for a while, I hope you enjoyed my mind as much as I 
 
 ~Johnneylee
 
-[#inspect]: http://www.ruby-doc.org/core/classes/Object.html#M001025 "#inspect@Rubydoc.info"
+[#inspect]: http://rubydoc.info/stdlib/core/1.9.2/Object#inspect-instance_method "#inspect@Rubydoc.info"
 [#instance_variables]: http://rubydoc.info/stdlib/core/1.9.2/Object#instance_variables-instance_method "#instance_variables@Rubydoc.info"
 [#debug]: http://rubydoc.info/docs/rails/3.0.0/ActionView/Helpers/DebugHelper#debug-instance_method "#debug@RubyonRails"
 [#logger]: http://rubydoc.info/stdlib/logger/1.9.2/Logger/Application#logger-instance_method "#logger@Rubydoc.info"

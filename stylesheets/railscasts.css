@@ -60,7 +60,7 @@ ul.hash li span.value:after { content: ","; }
 .require *:after { content: "'"; }
 
 code { font: 1.2em monospace; }
-tab { margin-left: 1em;}
+tab { margin-left: 1em; }
 .constant { color: #ffffff; }
 .comment { color: #B76B39; font-weight: bold; }
 .comment:before { content: "# "; }
