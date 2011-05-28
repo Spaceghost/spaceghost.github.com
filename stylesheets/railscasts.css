@@ -56,8 +56,8 @@ ul.hash li span.value:after { content: ","; }
 
 .require:before { color: #B76B39; content: "require "; }
 .require { color: #7DB85B; }
-.require span:before { content: "'"; }
-.require span:after { content: "'"; }
+.require *:before { content: "'"; }
+.require *:after { content: "'"; }
 
 code { font: 1.2em monospace; }
 tab { margin-left: 1em;}
@@ -76,8 +76,9 @@ a:hover { color: orange; }
 .indexed { counter-reset: item -1; list-style: none; }
 .indexed li { width: 9001px; }
 .indexed li:before {
-		content:  "# >> " counter(item) ". ";
-		counter-increment: item;
-		display:block;
-		}
+	content:  "# >> " counter(item) ". ";
+	counter-increment: item;
+	color: #B76B39;
+	font-weight: bold;
+}
 
