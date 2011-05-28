@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<span class="klass"><code class="constant">Post</code> &lt; <code><a href="/#{{page.category}}">{{page.category}}::Blog</a></code><br />
+<div class="klass"><code class="constant">Post</code> &lt; <code><a href="/#{{page.category}}">{{page.category}}::Blog</a></code><br />
   <div class="inner">
     <code>attr_accessor :title, :subtitle, :meta, :content, :comments</code><br />
     <code>title&nbsp;&nbsp;&nbsp; = <span class="string">{{ page.title }}</span></code><br />
@@ -12,7 +12,7 @@ layout: default
       <div class="inner">{{ content }}</div>
     </span>
   </div>
-</span>
+</div>
 Number of words in this post: {{ page.content | number_of_words }}
 <div id="related">
   <h2>Related Posts</h2>
