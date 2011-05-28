@@ -26,20 +26,13 @@ color: white;
 .klass:before { content: "class " }
 .klass:after { content: " end"; }
 
-.constant { color: #ffffff; }
-
 .heredoc { color: #B76B39; font-weight: bold; display: inline; }
 .heredoc:before { content: " <<EOF"; }
 .heredoc:after { content: " EOF"; }
 
-code { font: 1.2em monospace; }
-
 .string { font: 1.1em monospace; color: #7DB85B; font-weight: normal; }
 .string:before { color: #ffffff; content: "\""; }
 .string:after { color: #ffffff; content: "\""; }
-
-.comment { color: #B76B39; font-weight: bold; }
-.comment:before { content: "# "; }
 
 ol.array { color: #ffffff; font-weight: normal; display: block; }
 ol.array:before { content: "[ "; }
@@ -50,13 +43,6 @@ ol.array li:last-child a:after  { color: #ffffff; content: "\""; }
 ol.array li a:before { color: #ffffff; content: "\""; }
 ol.array li a:after  { color: #ffffff; content: "\", "; }
 
-.indexed { counter-reset: item -1; list-style: none; }
-.indexed li { width: 9001px; }
-.indexed li:before {
-		content:  "# >> " counter(item) ". ";
-		counter-increment: item;
-		display:block;
-		}
 ul.hash { color: #ffffff; font-weight: normal; }
 ul.hash:before { content: "{ "; }
 ul.hash:after { content: " }"; }
@@ -68,7 +54,16 @@ ul.hash li span.key:after { content: " "; }
 ul.hash li span.value:before { content: " => "; }
 ul.hash li span.value:after { content: ","; }
 
+.require:before { color: #B76B39; content: "require "; }
+.require { color: #7DB85B; }
+.require span:before { content: "'"; }
+.require span:after { content: "'"; }
+
+code { font: 1.2em monospace; }
 tab { margin-left: 1em;}
+.constant { color: #ffffff; }
+.comment { color: #B76B39; font-weight: bold; }
+.comment:before { content: "# "; }
 
 /* Support code */
 a { text-decoration: none; color: #7DB85B; }
@@ -76,5 +71,13 @@ a:visited { color: #7FB85B; }
 a:hover { color: orange; }
 
 .inline { display: inline; }
+
 .inner { padding-left: 1em; font-weight: normal; color: #ffffff; }
+.indexed { counter-reset: item -1; list-style: none; }
+.indexed li { width: 9001px; }
+.indexed li:before {
+		content:  "# >> " counter(item) ". ";
+		counter-increment: item;
+		display:block;
+		}
 
