@@ -77,6 +77,9 @@ a { text-decoration: none; color: #7DB85B; }
 a:visited { color: #7FB85B; }
 a:hover { color: orange; }
 
+.date { font: 1.1em monospace; color: #7DB85B; font-weight: normal; }
+.date:after { content: " "; }
+
 .inline { display: inline; }
 
 .inner { padding-left: 1em; font-weight: normal; color: #ffffff; }
