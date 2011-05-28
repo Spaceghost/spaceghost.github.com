@@ -50,7 +50,7 @@ If you're not as zen as I am about these things, here's a more detailed explanat
   In ruby this means two spaces per tab, make sure they're inserted as spaces.</p>
 
   <p>Now, I'm not saying that your code will work after you've formatted it appropriately; it may or may not.
-  I'm also not going to say that there aren't developers out there who can scrape the insides of a garbage disposal and come out with a perfectly valid program out of it.
+  I'm also not going to say that there aren't developers out there who can't scrape the insides of a garbage disposal and come out with a perfectly valid program out of it.
   But organising your code into a format that has been deemed readable by the community surrounding the language/framework/whatever you're trying to get help with is like the best approach.</p>
 
   <p>Not to put too much work on you, but if you were willing to accept a friendly suggestion, I'd say to learn how to code in that very way we just covered.
