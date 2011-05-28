@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to get help
-subtitle: Teaching rubyists how to fish.
+subtitle: Teaching people how to fish.
 category: Thoughts
 comments: true
 meta: 29 May 2011 - Eugene, Oregon
