@@ -3,10 +3,9 @@ layout: post
 title: Ferris Bueller
 subtitle: You have seen it right?
 category: Thoughts
+meta: 25 May 2011 - Eugene, Oregon
 comments: true
 ---
-
-<p class="meta">25 May 2011 - Eugene, Oregon</p>
 
 So, I was watching Ferris Bueller's Day Off ("[FBDO][]" to me and my friends). I had just seen [Fight Club][], and I was thinking about it. Here's what I thought.
 

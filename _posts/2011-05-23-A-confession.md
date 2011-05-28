@@ -3,10 +3,10 @@ layout: post
 title: A confession
 subtitle: I blame myself.
 category: Monoceros
+meta: 23 May 2011 - Eugene, Oregon
 comments: true
 ---
 
-<p class="meta">23 May 2011 - Eugene, Oregon</p>
 
 [Yesterday][] was a productive day. I feel so good about it, I even broke down a wall that I've had for a long time. For the first time in Spaceghost history, I open sourced a project before it was even fit for human consumption.
 

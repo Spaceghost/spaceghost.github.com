@@ -3,10 +3,10 @@ layout: post
 title: Feature share
 subtitle: Where you learn that there are way too many ideas in my head.
 category: Monoceros
+meta: 24 May 2011 - Eugene, Oregon
 comments: true
 ---
 
-<p class="meta">24 May 2011 - Eugene, Oregon</p>
 > "We would rather have you contribute and mess something up than not contribute. So please go ahead and mess around." &dash; [Sarah Mei][]
 ---
 Alright, here's the latest. I'm going to start tossing out ideas for you to discuss, critique, scoff at and generally offer feedback on. I'm not looking for the "best way", but I do love input. If you can fix anything or make some cool changes beyond the helpful hint, please submit a pull request. Take note though, in my [second post][] I mentioned that all pull requests have to include tests for code changes. Without further ado, my ideas.

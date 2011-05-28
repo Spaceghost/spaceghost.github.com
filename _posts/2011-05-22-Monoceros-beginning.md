@@ -3,10 +3,9 @@ layout: post
 title: Monoceros beginning
 subtitle: A BDD love story
 category: Monoceros
+meta: 22 May 2011 - Eugene, Oregon
 comments: true
 ---
-
-<p class="meta">22 May 2011 - Eugene, Oregon</p>
 
 It's 6 am.
 
