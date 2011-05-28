@@ -13,7 +13,7 @@ So here is where I start my journey. Right now, I'm sitting in my living room, l
 
 Perhaps you've been there. Furious coding, stopping to fix some errant code (Not mine. I swear) and then mashing away at your keyboard in attempt to pick up the slack and get that velocity back. All the while, the movie you started to 'watch' has been left on, desperate for your attention.
 
-Again I say, here is where I start my journey. Working with edge [Rails][], fresh from the github repository. [@dhh][] has just pushed the bump for the rails 3.1 release candidate moments before I start the long-winded bundle install that will be the first step towards building a better and brighter rails future. What's the target, you ask? [Monoceros][]. The name means [Unicorn][] in <strike>geek</strike>^W Greek. What Monoceros does (will do), would be best explained in parts.
+Again I say, here is where I start my journey. Working with edge [Rails][], fresh from the github repository. [@dhh][] has just pushed the bump for the rails 3.1 release candidate moments before I start the long-winded bundle install that will be the first step towards building a better and brighter rails future. What's the target, you ask? [Monoceros][]. The name means [Unicorn][] in <span class="strike">geek</span>^W Greek. What Monoceros does (will do), would be best explained in parts.
 
 1. Engine
 

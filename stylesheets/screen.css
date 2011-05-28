@@ -206,3 +206,5 @@ ul.posts {
     margin-bottom: 1em;
   }
 
+.strike { text-decoration: line-through; }
+
