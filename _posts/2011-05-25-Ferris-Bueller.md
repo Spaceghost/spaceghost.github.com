@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ferris Bueller
-subtitle: You have seen it right?
+subtitle: You have seen it, right?
 category: Thoughts
 meta: 25 May 2011 - Eugene, Oregon
 comments: true
