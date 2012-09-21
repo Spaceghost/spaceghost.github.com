@@ -208,3 +208,9 @@ ul.posts {
 
 .strike { text-decoration: line-through; }
 
+.inner { position: relative; }
+.indexed li > a { 
+  position: absolute;
+  left: 0;
+  padding-left: 65px;
+}
