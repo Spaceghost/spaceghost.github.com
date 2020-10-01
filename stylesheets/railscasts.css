@@ -18,6 +18,8 @@ color: white;
 .module:before { content: "module " }
 .module:after { content: "end" }
 
+.__end__ { color: #aaa; font-weight: bold; }
+.__end__:after {content: "__END__";}
 .klass { color: #B76B39; font-weight: bold; }
 .klass:first-child { color: #B76B39; }
 .klass:last-child { color: #B76B39; font-weight: bold; }
@@ -69,8 +71,11 @@ ul.hash li span.value:after { content: ","; }
 code { font: 1.1em monospace; }
 tab { margin-left: 1em; }
 .constant { color: #ffffff; }
-.comment { color: #B76B39; font-weight: bold; }
+.comment { color: #B76B39; font-weight: lighter; }
 .comment:before { content: "# "; }
+
+.whackbang { color: #B76B39; font-weight: lighter; }
+.whackbang:before { content: "#!"; }
 
 /* Support code */
 a { text-decoration: none; color: #7DB85B; }

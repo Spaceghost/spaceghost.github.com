@@ -7,7 +7,11 @@
  * <tab /><span>I want</span> my name plastered everywhere.</div><br />
  */
 tab { margin-left: 1em; }
-.feature:before { color: #B76B39;; content: "Feature: "; }
+.feature:before { color: #B76B39; content: "Feature: "; }
 .feature span { color: #B76B39; }
 .feature { color: #C5D88A; font: 1.2em monospace; padding: 1em; }
+
+.scenario:before { color: #B76B39; content: "Scenario: "; }
+.scenario span { color: #B76B39; }
+.scenario { color: #C5D88A; font: 1.2em monospace; padding: 1em; }
 

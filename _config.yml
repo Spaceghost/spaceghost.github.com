@@ -1,4 +1,4 @@
-permalink: /:categories/:year/:month/:day/:title.html
+permalink: /:title
 server: true
 server_port: 4000
 auto: true

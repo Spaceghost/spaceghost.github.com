@@ -1,25 +1,25 @@
 ---
-layout: nil
+layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Spaceghost@Github</title>
- <link href="http://Spaceghost.github.com/atom.xml" rel="self"/>
- <link href="http://Spaceghost.github.com/"/>
+ <link href="http://spacegho.st/atom.xml" rel="self"/>
+ <link href="http://spacegho.st/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://Spaceghost.github.com/</id>
+ <id>http://spacegho.st/</id>
  <author>
    <name>Johnneylee Jack Rollins</name>
-   <email>Johnneylee.Rollins@gmail.com</email>
+   <email>me@spacegho.st</email>
  </author>
 
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://Spaceghost.github.com{{ post.url }}"/>
+   <link href="http://spacegho.st{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://Spaceghost.github.com{{ post.id }}</id>
+   <id>http://Spacegho.st{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
